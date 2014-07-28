@@ -1,0 +1,67 @@
+<rdf:RDF 
+  xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+  xmlns='http://www.w3.org/2002/12/cal/ical#'
+  xmlns:i='http://www.w3.org/2002/12/cal/ical#'
+  xmlns:x='http://www.w3.org/2002/12/cal/prod_apple#'
+>  <Vcalendar>
+    <calscale>GREGORIAN</calscale>
+    <x:wrTimezone>Europe/London</x:wrTimezone>
+    <method>PUBLISH</method>
+    <prodid>-//Apple Computer\, Inc//iCal 1.0//EN</prodid>
+    <x:wrRelcalid>C986E9DC-5974-11D7-8A5F-000393161A98</x:wrRelcalid>
+    <x:wrCalname>Work</x:wrCalname>
+    <version>2.0</version>
+    <component>
+    <Vevent>
+      <sequence>42</sequence>
+      <dtstamp rdf:parseType='Resource'>
+        <dateTime>2003-03-18T19:06:32Z</dateTime>
+      </dtstamp>
+      <summary>#rdfig calendar meeting</summary>
+      <dtend rdf:parseType='Resource'>
+        <dateTime>2003-03-12T19:30:00</dateTime>
+        <tzid>/softwarestudio.org/Olson_20011030_5/Europe/London</tzid>
+      </dtend>
+      <uid>C986D83E-5974-11D7-8A5F-000393161A98</uid>
+      <dtstart rdf:parseType='Resource'>
+        <dateTime>2003-03-12T18:00:00</dateTime>
+        <tzid>/softwarestudio.org/Olson_20011030_5/Europe/London</tzid>
+      </dtstart>
+    </Vevent>
+    </component>
+    <component>
+    <Vtimezone>
+      <tzid>/softwarestudio.org/Olson_20011030_5/Europe/London</tzid>
+      <x:licLocation>Europe/London</x:licLocation>
+      <standard rdf:parseType='Resource'>
+        <tzoffsetfrom>+0100</tzoffsetfrom>
+        <tzoffsetto>+0000</tzoffsetto>
+        <tzname>GMT</tzname>
+        <dtstart rdf:parseType='Resource'>
+          <dateTime>1970-10-25T02:00:00</dateTime>
+        </dtstart>
+        <rrule rdf:parseType='Resource'>
+        <bymonth>10</bymonth>
+        <interval>1</interval>
+        <byday>-1SU</byday>
+        <freq>YEARLY</freq>
+        </rrule>
+      </standard>
+      <daylight rdf:parseType='Resource'>
+        <tzoffsetfrom>+0000</tzoffsetfrom>
+        <tzoffsetto>+0100</tzoffsetto>
+        <tzname>BST</tzname>
+        <dtstart rdf:parseType='Resource'>
+          <dateTime>1970-03-29T01:00:00</dateTime>
+        </dtstart>
+        <rrule rdf:parseType='Resource'>
+        <bymonth>3</bymonth>
+        <interval>1</interval>
+        <byday>-1SU</byday>
+        <freq>YEARLY</freq>
+        </rrule>
+      </daylight>
+    </Vtimezone>
+    </component>
+  </Vcalendar>
+</rdf:RDF>

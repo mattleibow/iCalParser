@@ -1,0 +1,140 @@
+<rdf:RDF
+  xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+  xmlns='http://www.w3.org/2002/12/cal/ical#'
+  xmlns:x='http://www.w3.org/2002/12/cal/prod_apple#'
+  xmlns:ical='http://www.w3.org/2002/12/cal/ical#'>
+<Vcalendar>
+<calscale>GREGORIAN</calscale>
+<x:wrTimezone>America/Montreal</x:wrTimezone>
+<prodid>-//Apple Computer\, Inc//iCal 1.0//EN</prodid>
+<x:wrCalname>Home</x:wrCalname>
+<x:wrRelcalid>16307FD2-33C4-11D7-B636-0003931A496C-CALP</x:wrRelcalid>
+<version>2.0</version>
+<component>
+<Vevent>
+<uid>1630841E-33C4-11D7-B636-0003931A496C-RID</uid>
+<dtstamp rdf:parseType='Resource'>
+<dateTime>2002-09-18T04:17:33Z</dateTime>
+</dtstamp>
+<dtstart rdf:parseType='Resource'>
+<dateTime>2002-09-21T09:15:00</dateTime>
+<tzid>America/Montreal</tzid>
+</dtstart>
+<duration>PT7H45M</duration>
+</Vevent>
+</component>
+<component>
+<Vevent>
+<dtstamp rdf:parseType='Resource'>
+<dateTime>2002-09-18T04:17:51Z</dateTime>
+</dtstamp>
+<summary>Nata Time</summary>
+<dtstart rdf:parseType='Resource'>
+<dateTime>2002-09-20T16:00:00</dateTime>
+<tzid>America/Montreal</tzid>
+</dtstart>
+<uid>163087AA-33C4-11D7-B636-0003931A496C-RID</uid>
+<duration>-PT4H</duration>
+</Vevent>
+</component>
+<component>
+<Vevent>
+<attendee rdf:parseType='Resource'>
+<calAddress rdf:resource='mailto:monumentalmooner@yahoo.com'/>
+<cn>Sara Kugelmass</cn>
+</attendee>
+<attendee rdf:parseType='Resource'>
+<calAddress rdf:resource='mailto:pamkelly33@sympatico.ca'/>
+<cn>Pamela Kelly</cn>
+</attendee>
+<attendee rdf:parseType='Resource'>
+<calAddress rdf:resource='mailto:neilk@shift.com'/>
+<cn>Neil Khanna</cn>
+</attendee>
+<attendee rdf:parseType='Resource'>
+<calAddress rdf:resource='mailto:tim@twotoprecords.com'/>
+<cn>Tim Spurway</cn>
+</attendee>
+<attendee rdf:parseType='Resource'>
+<calAddress rdf:resource='mailto:nata_let@yahoo.com'/>
+<cn>Nathalie Letellier</cn>
+</attendee>
+<attendee rdf:parseType='Resource'>
+<calAddress rdf:resource='mailto:julia@breckenreid.com'/>
+<cn>Julia Breckenreid</cn>
+</attendee>
+<attendee rdf:parseType='Resource'>
+<calAddress rdf:resource='mailto:brett.f@rogers.com'/>
+<cn>Brett Feeley</cn>
+</attendee>
+<attendee rdf:parseType='Resource'>
+<calAddress rdf:resource='mailto:paul@dowman.net'/>
+<cn>Paul Dowman</cn>
+</attendee>
+<attendee rdf:parseType='Resource'>
+<calAddress rdf:resource='mailto:jackieallen_ca@yahoo.ca'/>
+<cn>Jackie Allen</cn>
+</attendee>
+<dtstamp rdf:parseType='Resource'>
+<dateTime>2003-01-29T19:58:55Z</dateTime>
+</dtstamp>
+<summary>Dim Sum @ Rol San</summary>
+<dtstart rdf:parseType='Resource'>
+<dateTime>2003-02-02T13:00:00</dateTime>
+<tzid>Canada/Eastern</tzid>
+</dtstart>
+<organizer rdf:parseType='Resource'>
+<calAddress rdf:resource='mailto:ryanfeeley@mac.com'/>
+<cn>Ryan Feeley</cn>
+</organizer>
+<uid>E6AF6FD4-33B0-11D7-B17D-0003934AB070-RID</uid>
+<duration>PT1H</duration>
+</Vevent>
+</component>
+<component>
+<Vevent>
+<dtstamp rdf:parseType='Resource'>
+<dateTime>2003-02-05T18:50:55Z</dateTime>
+</dtstamp>
+<summary>New Event</summary>
+<dtstart rdf:parseType='Resource'>
+<dateTime>2003-02-02T14:00:00</dateTime>
+<tzid>America/Montreal</tzid>
+</dtstart>
+<uid>C1A43722-393A-11D7-9F3E-0003931A496C-RID</uid>
+<duration>PT1H</duration>
+</Vevent>
+</component>
+<component>
+<Vevent>
+<uid>7891536E-66D6-11D7-B13A-0003931A496C-RID</uid>
+<dtstamp rdf:parseType='Resource'>
+<dateTime>2003-04-04T19:49:51Z</dateTime>
+</dtstamp>
+<summary>Dinner at Paul and Jackie's</summary>
+<dtstart rdf:parseType='Resource'>
+<dateTime>2003-04-05T19:00:00</dateTime>
+<tzid>America/Montreal</tzid>
+</dtstart>
+<dtend rdf:parseType='Resource'>
+<dateTime>2003-04-05T23:00:00</dateTime>
+<tzid>America/Montreal</tzid>
+</dtend>
+</Vevent>
+</component>
+<component>
+<Vevent>
+<dtstamp rdf:parseType='Resource'>
+<dateTime>2003-04-04T19:51:09Z</dateTime>
+</dtstamp>
+<summary>Easter Long weekend begins</summary>
+<uid>BEAEE761-66D6-11D7-B13A-0003931A496C-RID</uid>
+<dtstart rdf:parseType='Resource'>
+<dateTime>2003-04-18T15:00:00</dateTime>
+<tzid>America/Montreal</tzid>
+</dtstart>
+<duration>PT1H</duration>
+</Vevent>
+</component>
+</Vcalendar>
+</rdf:RDF>

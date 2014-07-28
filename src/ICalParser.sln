@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICalParser", "ICalParser.csproj", "{03BAF2A6-5C24-4450-94EF-F5F792F783E4}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{03BAF2A6-5C24-4450-94EF-F5F792F783E4}.Debug.ActiveCfg = Debug|.NET
+		{03BAF2A6-5C24-4450-94EF-F5F792F783E4}.Debug.Build.0 = Debug|.NET
+		{03BAF2A6-5C24-4450-94EF-F5F792F783E4}.Release.ActiveCfg = Release|.NET
+		{03BAF2A6-5C24-4450-94EF-F5F792F783E4}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

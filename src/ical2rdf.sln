@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ical2rdf", "ical2rdf.csproj", "{71EE87C9-8856-4F2E-AF17-E87A1FBCD519}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{71EE87C9-8856-4F2E-AF17-E87A1FBCD519}.Debug.ActiveCfg = Debug|.NET
+		{71EE87C9-8856-4F2E-AF17-E87A1FBCD519}.Debug.Build.0 = Debug|.NET
+		{71EE87C9-8856-4F2E-AF17-E87A1FBCD519}.Release.ActiveCfg = Release|.NET
+		{71EE87C9-8856-4F2E-AF17-E87A1FBCD519}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
